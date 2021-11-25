@@ -1,0 +1,112 @@
+footer {
+	color: white;
+}
+footer{
+    .contenedor {
+	    display: flex;
+	    justify-content: center;
+    }
+}
+    
+
+.contenedor {
+    a{
+        color: white;
+        text-align: center;
+        width: 90px;
+        padding: 15px 0;
+        border-radius: 5px;
+        font-size: 30px;
+        margin: 0 20px;
+    }
+}
+
+.contenedor {
+    .twitter:hover {background: #1da1f2; color: white; transition: 1s;}
+    .facebook:hover {background: #3b5998; color: white; transition: 1s;}
+    .youtube:hover {background: #ff0000; color: white; transition: 1s;}
+    .whatsapp:hover {background: #37e627; color: white; transition: 1s;}
+    .instagram:hover {background: #405de6; color: white; transition: 1s;}
+} 
+
+.contenedor-horas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer {
+
+    .titulo-horarios, .titulo-ubi, .titulo-redes {
+	    font-size: 2.5em;
+	    text-align: center;
+	    margin-bottom: 15px;
+	    font-weight: lighter;
+	    text-decoration: underline solid 2px;
+	    letter-spacing: 2px;
+	    color: white;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+.contenedor-horas {
+    ul {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-left: 0;
+        flex-direction: column;
+
+
+            .lun-vier, .sab, .dom {
+                list-style-type: none;
+                text-align: center;
+                font-size: 1.25em;
+                display: flex;
+                justify-content: center;
+                margin: 10px;
+        }
+    }
+}
+
+.contenedor-ubi {
+    .calle {
+        text-align: center;
+        font-size: 1.25em;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+    }
+}
+
+
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 960px){
+    .contenedor-hu {
+        display: flex;
+        flex-direction: column;
+        .contenedor-horas,
+        .contenedor-ubi {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    
+}

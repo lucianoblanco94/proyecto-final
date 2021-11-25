@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.main {
+	margin: 100px auto 20px auto;
+}
+
+
+
+
+@import "./base/index";
+@import "./base/productos";
+@import "./base/blog";
+@import "./base/faq";
+@import "./base/contacto";
+@import "./base/footer";
+@import "./componentes/colores";
+@import "./componentes/fonts";
+@import "./componentes/mediaqueries";
