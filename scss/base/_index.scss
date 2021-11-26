@@ -8,6 +8,15 @@
     justify-content: center;
 	flex-direction: column;
 	margin: 0px 10px 0 10px;
+	.photo-grid-title{
+		font-size: 2.5em;
+		text-align: left;
+		margin: 30px;
+		color: $color-blanco;
+		display: flex;
+		justify-content: start;
+		color: $color-principal;
+	}
 	.photo-grid {
 		width: 100%;
 		display: flex;
@@ -16,13 +25,13 @@
 		flex-direction: row;
 			.photo-grid-item {
 			width: 33%;
-			position: relative;
-			.item-title {
-				position:absolute;
-				top: 30px;
-				left: 10px;
-				border: $color-blanco solid 4px;
-				padding: 2px;
+				.item-title {
+					position: absolute;
+					top: 30px;
+					left: 10px;
+					border: $color-blanco solid 4px;
+					padding: 2px;
+				}
 			}
 			img{
 				vertical-align: top;
@@ -41,17 +50,7 @@
 		}
 		
 	}
-	
-	.photo-grid-title{
-		font-size: 2.5em;
-		text-align: left;
-		margin: 30px;
-		color: $color-blanco;
-		display: flex;
-		justify-content: start;
-		color: $color-principal;
-	}
-}
+
 
 /* NEWSLETTER */
 .container-newsletter {
