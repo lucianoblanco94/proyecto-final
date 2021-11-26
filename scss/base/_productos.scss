@@ -25,6 +25,11 @@ div {
 					.old-price {
 						text-decoration: line-through;
 						color: gray;
+						font-weight: 400;
+					}
+					.offer-price {
+						font-weight: 700;
+						color: $color-principal;
 					}
 			}
     }

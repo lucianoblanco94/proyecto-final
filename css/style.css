@@ -271,7 +271,16 @@ div .contenedor-shorts {
     div .contenedor-accesorios .price-producto .old-price,
     div .contenedor-shorts .price-producto .old-price {
       text-decoration: line-through;
-      color: gray; }
+      color: gray;
+      font-weight: 400; }
+    div .contenedor-zapatillas .price-producto .offer-price,
+    div .contenedor-tees .price-producto .offer-price,
+    div .contenedor-hoddies .price-producto .offer-price,
+    div .contenedor-boardshorts .price-producto .offer-price,
+    div .contenedor-accesorios .price-producto .offer-price,
+    div .contenedor-shorts .price-producto .offer-price {
+      font-weight: 700;
+      color: #d6970e; }
 
 .title-grupo {
   font-size: 1.5em;
