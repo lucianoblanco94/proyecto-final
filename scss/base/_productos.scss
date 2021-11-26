@@ -1,6 +1,6 @@
 .title-section-productos {
 	font-size: 2.5em;
-	color: rgb(214, 151, 14);
+	color: $color-principal;
 	text-align: left;
 	margin: 10px auto;
 }
@@ -15,7 +15,6 @@ div {
 	    width: 80%;
 	    height: auto;
 	    padding: 20px 20px;
-	    border: rgb(214, 151, 14) solid 2px;
 	    margin: 20px auto;
 	    display: flex;
 	    justify-content: center;
@@ -28,7 +27,7 @@ div {
 						color: gray;
 					}
 			}
-    }	
+    }
 }
 
 
@@ -38,6 +37,7 @@ div {
 	letter-spacing: 2px;
 	width: 100%;
 	margin: 10px auto 15px;
+	
 }
 
 
@@ -48,11 +48,11 @@ div {
 
 .container-selects  {
     select {
-        background-color: #000;
-        color: #fff;
+        background-color: $color-negro;
+        color: $color-blanco;
         width: 150px;
         height: 30px;
-        border: rgb(214, 151, 14) solid 3px;
+        border: $color-principal solid 3px;
         border-radius: 5px;
     }
 }
@@ -68,11 +68,11 @@ div {
 	margin: 10px 20px;
 	padding: 5px 10px;
 	font-weight: bold;
-	background-color: rgb(214, 151, 14);
+	background-color: $color-principal;
 	border: none;
 	border-radius: 5px;
 	font-size: 0.9em;
-	color: #000;
+	color: $color-negro;
 	letter-spacing: 2px;
 	display: flex;
 	justify-content: space-evenly;
@@ -80,7 +80,7 @@ div {
     text-decoration: none;
     &:hover {
         opacity: 0.8;
-	    color: #fff;
+	    color: $color-blanco;
 	    transform: scale(1.5);
     }
 }
@@ -92,18 +92,50 @@ div {
     }
 }
 
+/* Menu lateral */
+
+.products-section-link {
+	background-color: $color-principal;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	height: 30%;
+	list-style-type: none;
+	li {
+		a {
+			text-decoration: none;
+			color: $color-negro;
+			letter-spacing: 2px;
+			transition: transform 1s;
+			&:hover {
+				color: $color-blanco;
+			}
+		}
+		border-bottom: 2px solid $color-negro;
+		&:hover {
+			border-bottom: 2px solid $color-blanco;
+		}
+		
+	}
+}
+
+
+
 
 /* MEDIAQUERIES */
 
-@media screen and (min-width: 961px) {
-
+@media screen and (min-width: 1010px) {
+	
 
 }
 
-@media screen and (min-width: 481px) and (max-width: 960px){
-
+@media screen and (min-width: 481px) and (max-width: 1010px){
+	.products-section-link {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 480px){
-	
+
 }

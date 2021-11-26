@@ -1,5 +1,5 @@
 footer {
-	color: white;
+	color: $color-blanco;
 }
 footer{
     .contenedor {
@@ -11,7 +11,7 @@ footer{
 
 .contenedor {
     a{
-        color: white;
+        color: $color-blanco;
         text-align: center;
         width: 90px;
         padding: 15px 0;
@@ -22,11 +22,11 @@ footer{
 }
 
 .contenedor {
-    .twitter:hover {background: #1da1f2; color: white; transition: 1s;}
-    .facebook:hover {background: #3b5998; color: white; transition: 1s;}
-    .youtube:hover {background: #ff0000; color: white; transition: 1s;}
-    .whatsapp:hover {background: #37e627; color: white; transition: 1s;}
-    .instagram:hover {background: #405de6; color: white; transition: 1s;}
+    .twitter:hover {background: $twitter; color: $color-blanco; transition: 1s;}
+    .facebook:hover {background: $facebook; color: $color-blanco; transition: 1s;}
+    .youtube:hover {background: $youtube; color: $color-blanco; transition: 1s;}
+    .whatsapp:hover {background: $whatsapp; color: $color-blanco; transition: 1s;}
+    .instagram:hover {background: $instagram; color: $color-blanco; transition: 1s;}
 } 
 
 .contenedor-horas {
@@ -45,7 +45,7 @@ footer {
 	    font-weight: lighter;
 	    text-decoration: underline solid 2px;
 	    letter-spacing: 2px;
-	    color: white;
+	    color: $color-blanco;
         display: flex;
         justify-content: center;
         width: 100%;
@@ -78,12 +78,10 @@ footer {
         font-size: 1.25em;
             a {
                 text-decoration: none;
-                color: white;
+                color: $color-blanco;
             }
     }
 }
-
-
 
 .copyright {
 	display: flex;

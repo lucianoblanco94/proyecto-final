@@ -8,6 +8,12 @@
 .main {
   margin: 100px auto 20px auto; }
 
+body {
+  background: url("../src/multimedia/img/fondo-texturizado-negro.jpg") fixed center;
+  color: #dddddd; }
+
+/* Colores */
+/* Colores Redes Sociales*/
 /* Galeria */
 .photo-grid-container {
   display: flex;
@@ -27,7 +33,7 @@
         position: absolute;
         top: 30px;
         left: 10px;
-        border: white solid 4px;
+        border: #dddddd solid 4px;
         padding: 2px; }
       .photo-grid-container .photo-grid .photo-grid-item img {
         vertical-align: top;
@@ -44,7 +50,7 @@
     font-size: 2.5em;
     text-align: left;
     margin: 30px;
-    color: white;
+    color: #dddddd;
     display: flex;
     justify-content: start;
     color: #d6970e; }
@@ -78,24 +84,24 @@
       border: #fff 2px solid;
       border-radius: 5px;
       background-color: black;
-      color: white;
+      color: #dddddd;
       display: flex;
       justify-content: center; }
     .container-newsletter .newsletter .btnNewsletter {
       margin: 10px 20px;
       padding: 5px 5px;
       text-align: center;
-      background-color: rgba(255, 255, 255, 0);
-      color: white;
+      background-color: black;
+      color: #d6970e;
       width: 90%;
       font-weight: bold;
       border-radius: 5px;
-      border-color: white;
+      border-color: #dddddd;
       display: flex;
       justify-content: center; }
       .container-newsletter .newsletter .btnNewsletter:hover {
         text-decoration: none;
-        color: white;
+        color: #dddddd;
         background-color: #d6970e; }
 
 /* NOSOTROS */
@@ -147,7 +153,7 @@
       align-items: center; }
     .container-servicio .row .service-thumb {
       background-color: black;
-      color: white;
+      color: #dddddd;
       width: 50px;
       height: 50px;
       border-radius: 50%;
@@ -158,7 +164,7 @@
       letter-spacing: 3px;
       margin: 10px 0 5px;
       font-size: 14px;
-      color: #272727; }
+      color: black; }
     .container-servicio .row .service-content {
       letter-spacing: 2px; }
 
@@ -175,14 +181,14 @@
   right: 20px;
   bottom: 10px; }
   .fixed-wapp a {
-    color: white;
+    color: #dddddd;
     text-decoration: none; }
 
 .fixed-help {
   width: 80px;
   height: 50px;
   border-radius: 100px;
-  background-color: white;
+  background-color: #dddddd;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -246,7 +252,6 @@ div .contenedor-shorts {
   width: 80%;
   height: auto;
   padding: 20px 20px;
-  border: #d6970e solid 2px;
   margin: 20px auto;
   display: flex;
   justify-content: center;
@@ -280,8 +285,8 @@ div .contenedor-shorts {
   margin: 10px auto; }
 
 .container-selects select {
-  background-color: #000;
-  color: #fff;
+  background-color: black;
+  color: #dddddd;
   width: 150px;
   height: 30px;
   border: #d6970e solid 3px;
@@ -301,7 +306,7 @@ div .contenedor-shorts {
   border: none;
   border-radius: 5px;
   font-size: 0.9em;
-  color: #000;
+  color: black;
   letter-spacing: 2px;
   display: flex;
   justify-content: space-evenly;
@@ -310,7 +315,7 @@ div .contenedor-shorts {
   .btn-comprar:hover,
   .btn-ver:hover {
     opacity: 0.8;
-    color: #fff;
+    color: #dddddd;
     transform: scale(1.5); }
 
 .foto-producto {
@@ -319,9 +324,33 @@ div .contenedor-shorts {
     opacity: 0.9;
     transition: scale(1.1); }
 
+/* Menu lateral */
+.products-section-link {
+  background-color: #d6970e;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 30%;
+  list-style-type: none; }
+  .products-section-link li {
+    border-bottom: 2px solid black; }
+    .products-section-link li a {
+      text-decoration: none;
+      color: black;
+      letter-spacing: 2px;
+      transition: transform 1s; }
+      .products-section-link li a:hover {
+        color: #dddddd; }
+    .products-section-link li:hover {
+      border-bottom: 2px solid #dddddd; }
+
 /* MEDIAQUERIES */
+@media screen and (min-width: 481px) and (max-width: 1010px) {
+  .products-section-link {
+    display: none; } }
 .container-blog {
-  color: white;
+  color: #dddddd;
   width: 90%;
   margin: 30px auto; }
   .container-blog .title-blog {
@@ -398,7 +427,7 @@ div .contenedor-shorts {
         .container-blog .grid-blog .blog-article-cinco .btn-read-more a,
         .container-blog .grid-blog .blog-article-seis .btn-read-more a {
           text-decoration: none;
-          color: white;
+          color: #dddddd;
           display: flex;
           align-items: center; }
         .container-blog .grid-blog .blog-article-uno .btn-read-more:hover,
@@ -408,7 +437,7 @@ div .contenedor-shorts {
         .container-blog .grid-blog .blog-article-cinco .btn-read-more:hover,
         .container-blog .grid-blog .blog-article-seis .btn-read-more:hover {
           opacity: 0.8;
-          color: white;
+          color: #dddddd;
           transform: scale(1.15); }
 
 @media screen and (min-width: 961px) {
@@ -471,7 +500,7 @@ div .contenedor-shorts {
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
-  color: white; }
+  color: #dddddd; }
   .container-faq .faq-title {
     width: 1000px;
     margin: 20px;
@@ -516,7 +545,7 @@ div .contenedor-shorts {
     justify-content: center; }
 
 .form-contacto {
-  background-color: #e9e8e8;
+  background-color: #dddddd;
   width: 600px;
   margin: 20px auto;
   padding: 20px 20px;
@@ -538,7 +567,7 @@ div .contenedor-shorts {
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 3px;
-  border: 1px solid #000;
+  border: 1px solid black;
   font-family: "Roboto", "Open Sans", Helvetica, sans-serif; }
 
 .form-contacto textarea {
@@ -559,7 +588,7 @@ label {
   width: 200px;
   margin: 0 auto;
   background: none;
-  border: 1px solid #000;
+  border: 1px solid black;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 3px;
@@ -576,13 +605,13 @@ label {
   .form-contacto select .form-contacto input[type="submit"]:hover,
   .form-contacto select .form-contacto input[type="reset"]:hover {
     background-color: #d6970e;
-    color: white;
+    color: #dddddd;
     font-weight: bold; }
 
 .form-contacto input[type="submit"]:hover,
 .form-contacto input[type="reset"]:hover {
   background-color: #d6970e;
-  color: white;
+  color: #dddddd;
   font-weight: bold; }
 
 .mapa {
@@ -597,14 +626,14 @@ section iframe {
   justify-content: center; }
 
 footer {
-  color: white; }
+  color: #dddddd; }
 
 footer .contenedor {
   display: flex;
   justify-content: center; }
 
 .contenedor a {
-  color: white;
+  color: #dddddd;
   text-align: center;
   width: 90px;
   padding: 15px 0;
@@ -614,23 +643,23 @@ footer .contenedor {
 
 .contenedor .twitter:hover {
   background: #1da1f2;
-  color: white;
+  color: #dddddd;
   transition: 1s; }
 .contenedor .facebook:hover {
   background: #3b5998;
-  color: white;
+  color: #dddddd;
   transition: 1s; }
 .contenedor .youtube:hover {
   background: #ff0000;
-  color: white;
+  color: #dddddd;
   transition: 1s; }
 .contenedor .whatsapp:hover {
   background: #37e627;
-  color: white;
+  color: #dddddd;
   transition: 1s; }
 .contenedor .instagram:hover {
   background: #405de6;
-  color: white;
+  color: #dddddd;
   transition: 1s; }
 
 .contenedor-horas {
@@ -646,7 +675,7 @@ footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes {
   font-weight: lighter;
   text-decoration: underline solid 2px;
   letter-spacing: 2px;
-  color: white;
+  color: #dddddd;
   display: flex;
   justify-content: center;
   width: 100%; }
@@ -670,7 +699,7 @@ footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes {
   font-size: 1.25em; }
   .contenedor-ubi .calle a {
     text-decoration: none;
-    color: white; }
+    color: #dddddd; }
 
 .copyright {
   display: flex;
@@ -690,6 +719,7 @@ body {
   background: url("../src/multimedia/img/fondo-texturizado-negro.jpg") fixed center;
   color: #dddddd; }
 
+/* Colores */
 /* Colores Redes Sociales*/
 body {
   font-family: "Roboto", "Open Sans", Sans-serif;

@@ -84,207 +84,328 @@
 
         <!-- Section Productos -->
         <section class="container-fluid">
-            <h2 class="title-section-productos">Productos</h2>
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <div class="contenedor-zapatillas">
-                        <h3 class="title-grupo">Zapatillas</h3>
-                        <img class="foto-producto" src="../multimedia/img/tibbonzapatillas.jpg" alt="Tibbon Zapatillas"
-                            width="200" height="auto">
-                        <p class="price-producto">$ 3000</p>
-                        <div class="container-selects">
-                            <label for="zapatillas">Talles</label>
-                            <select name="zapatillas" id="zapatillas">
-                                <option value="38">38</option>
-                                <option value="39">39</option>
-                                <option value="40">40</option>
-                                <option value="41">41</option>
-                                <option value="42">42</option>
-                            </select>
-                            <br>
-                            <label for="color">Color</label>
+                <h2 class="title-section-productos">Productos</h2>
+                <div class="col-lg-2 mt-5">
+                    <!-- Lista que te lleva a la sección de lo clickees en otra ventana -->
+                    <ul class="products-section-link">
+                        <li><a href="#">Tees</a></li>
+                        <li><a href="#">Hoddies</a></li>
+                        <li><a href="#">Boardshorts</a></li>
+                        <li><a href="#">Hats</a></li>
+                        <li><a href="#">Zapas</a></li>
+                        <li><a href="#">Sweaters</a></li>
+                        <li><a href="#">Camisas</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                        <li><a href="#">Shorts</a></li>
 
-                            <select name="color" id="">
-                                <option value="black">Black</option>
-                                <option value="white">White</option>
-                                <option value="red">Red</option>
-                                <option value="blue">Blue</option>
-                            </select>
+
+
+                    </ul>
+                </div>
+                <div class="col-lg-10">
+                    <div class="row">
+
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="contenedor-zapatillas">
+                                <h3 class="title-grupo">Zapatillas</h3>
+                                <img class="foto-producto" src="../multimedia/img/tibbonzapatillas.jpg"
+                                    alt="Tibbon Zapatillas" width="200" height="auto">
+                                <p class="price-producto">$ 3000</p>
+                                <div class="container-selects">
+                                    <label for="zapatillas">Talles</label>
+                                    <select name="zapatillas" id="zapatillas">
+                                        <option value="38">38</option>
+                                        <option value="39">39</option>
+                                        <option value="40">40</option>
+                                        <option value="41">41</option>
+                                        <option value="42">42</option>
+                                    </select>
+                                    <br>
+                                    <label for="color">Color</label>
+    
+                                    <select name="color" id="">
+                                        <option value="black">Black</option>
+                                        <option value="white">White</option>
+                                        <option value="red">Red</option>
+                                        <option value="blue">Blue</option>
+                                    </select>
+                                </div>
+                                <!-- BOTONES CON TRANSICIONES -->
+                                <div class="btn-productos-container">
+                                    <button class="btn-comprar">Comprar</button>
+                                    <a href="#" class="btn-ver" target="_blank">Ver</a>
+                                </div>
+                            </div>
                         </div>
-                        <!-- BOTONES CON TRANSICIONES -->
-                        <div class="btn-productos-container">
-                            <button class="btn-comprar">Comprar</button>
-                            <a href="#" class="btn-ver" target="_blank">Ver más</a>
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="contenedor-tees">
+                                <h3 class="title-grupo">Tees</h3>
+                                <img class="foto-producto" src="../multimedia/img/saving-waves.jpg" alt="Saving Waves"
+                                    width="200" height="auto">
+                                <p class="price-producto">$ 2500</p>
+                                <div class="container-selects">
+                                    <label for="tees">Talles</label>
+                                    <select name="tees" id="tees">
+                                        <option value="s">S</option>
+                                        <option value="m">M</option>
+                                        <option value="l">L</option>
+                                        <option value="xl">XL</option>
+                                        <option value="xxl">XXL</option>
+                                    </select>
+                                    <br>
+                                    <label for="color">Color</label>
+                                    <select name="color" id="">
+                                        <option value="black">Black</option>
+                                        <option value="white">White</option>
+                                        <option value="red">Red</option>
+                                        <option value="blue">Blue</option>
+                                    </select>
+                                </div>
+                                <!-- BOTONES CON TRANSICIONES -->
+    
+                                <div class="btn-productos-container">
+                                    <button class="btn-comprar">Comprar</button>
+                                    <a href="#" class="btn-ver" target="_blank">Ver</a>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="contenedor-hoddies">
+                                <h3 class="title-grupo">Hoodies</h3>
+                                <img class="foto-producto" src="../multimedia/img/black-divot.jpg" alt="Black Divot"
+                                    width="200" height="auto">
+                                <p class="price-producto">
+                                    <span class="old-price">$7000</span>
+                                    <span class="normal-price"> $5600</span>
+                                </p>
+                                <div class="container-selects">
+                                    <label for="hoddies">Talles</label>
+                                    <select name="hoddies" id="hoddies">
+                                        <option value="s">S</option>
+                                        <option value="m">M</option>
+                                        <option value="l">L</option>
+                                        <option value="xl">XL</option>
+                                        <option value="xxl">XXL</option>
+                                    </select>
+                                    <br>
+                                    <label for="color">Color</label>
+                                    <select name="color" id="">
+                                        <option value="black">Black</option>
+                                        <option value="white">White</option>
+                                        <option value="red">Red</option>
+                                        <option value="blue">Blue</option>
+                                    </select>
+                                </div>
+                                <!-- BOTONES CON TRANSICIONES -->
+    
+                                <div class="btn-productos-container">
+                                    <button class="btn-comprar">Comprar</button>
+                                    <a href="#" class="btn-ver" target="_blank">Ver</a>
+    
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="contenedor-boardshorts">
+                                <h3 class="title-grupo">Boardshorts</h3>
+                                <img class="foto-producto" src="../multimedia/img/short-chagos.jpg"
+                                    alt="Traje de baño Chagos" width="200" height="auto">
+    
+                                <p class="price-producto">
+                                    <span class="old-price">$4500</span>
+                                    <span class="normal-price"> $3800</span>
+                                </p>
+    
+                                <div class="container-selects">
+                                    <label for="talle">Talles</label>
+                                    <select name="talle" id="talle">
+                                        <option value="s">S</option>
+                                        <option value="m">M</option>
+                                        <option value="l">L</option>
+                                        <option value="xl">XL</option>
+                                        <option value="xxl">XXL</option>
+                                    </select>
+                                    <br>
+                                    <label for="color">Color</label>
+                                    <select name="color" id="">
+                                        <option value="black">Black</option>
+                                        <option value="white">White</option>
+                                        <option value="red">Red</option>
+                                        <option value="blue">Blue</option>
+                                    </select>
+                                </div>
+                                <!-- BOTONES CON TRANSICIONES -->
+    
+                                <div class="btn-productos-container">
+                                    <button class="btn-comprar">Comprar</button>
+                                    <a href="#" class="btn-ver" target="_blank">Ver</a>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="contenedor-accesorios">
+                                <h3 class="title-grupo">Accesorios</h3>
+                                <img class="foto-producto" src="../multimedia/img/gorra-vita.jpg" alt="Gorra Vita"
+                                    width="200" height="auto">
+                                <p class="price-producto">$ 1500</p>
+                                <div class="container-selects">
+                                    <br>
+                                    <label for="color">Color</label>
+                                    <select name="color" id="">
+                                        <option value="black">Black</option>
+                                        <option value="white">White</option>
+                                        <option value="red">Red</option>
+                                        <option value="blue">Blue</option>
+                                    </select>
+                                </div>
+                                <!-- BOTONES CON TRANSICIONES -->
+    
+                                <div class="btn-productos-container">
+                                    <button class="btn-comprar">Comprar</button>
+                                    <a href="#" class="btn-ver" target="_blank">Ver</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="contenedor-shorts">
+                                <h3 class="title-grupo">Shorts</h3>
+                                <img class="foto-producto" src="../multimedia/img/short-vita.jpg" alt="Saving Waves"
+                                    width="200" height="auto">
+                                <p class="price-producto">$ 2500</p>
+                                <div class="container-selects">
+                                    <label for="tees">Talles</label>
+                                    <select name="tees" id="tees">
+                                        <option value="s">S</option>
+                                        <option value="m">M</option>
+                                        <option value="l">L</option>
+                                        <option value="xl">XL</option>
+                                        <option value="xxl">XXL</option>
+                                    </select>
+                                    <br>
+                                    <label for="color">Color</label>
+                                    <select name="color" id="">
+                                        <option value="black">Black</option>
+                                        <option value="white">White</option>
+                                        <option value="red">Red</option>
+                                        <option value="blue">Blue</option>
+                                    </select>
+                                </div>
+                                <!-- BOTONES CON TRANSICIONES -->
+    
+                                <div class="btn-productos-container">
+                                    <button class="btn-comprar">Comprar</button>
+                                    <a href="#" class="btn-ver" target="_blank">Ver</a>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="contenedor-shorts">
+                                <h3 class="title-grupo">Camisas</h3>
+                                <img class="foto-producto" src="../multimedia/img/camisa-lanai-gianni-21-59a0e3a753fec8ccd116378544603878-1024-1024(1).jpg" alt="Camisa Lanai Gianni Vita Jeans"
+                                    width="200" height="auto">
+                                <p class="price-producto">$ 4700</p>
+                                <div class="container-selects">
+                                    <label for="tees">Talles</label>
+                                    <select name="tees" id="tees">
+                                        <option value="s">S</option>
+                                        <option value="m">M</option>
+                                        <option value="l">L</option>
+                                        <option value="xl">XL</option>
+                                        <option value="xxl">XXL</option>
+                                    </select>
+                                    <br>
+                                    <label for="color">Color</label>
+                                    <select name="color" id="">
+                                        <option value="black">Black</option>
+                                        <option value="white">White</option>
+                                        <option value="red">Red</option>
+                                        <option value="blue">Blue</option>
+                                    </select>
+                                </div>
+                                <!-- BOTONES CON TRANSICIONES -->
+    
+                                <div class="btn-productos-container">
+                                    <button class="btn-comprar">Comprar</button>
+                                    <a href="#" class="btn-ver" target="_blank">Ver</a>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="contenedor-shorts">
+                                <h3 class="title-grupo">Pilusos</h3>
+                                <img class="foto-producto" src="../multimedia/img/piluso-vallecitos-scaled.jpg" alt="Piluso Underwave Brand"
+                                    width="200" height="auto">
+                                <p class="price-producto">$ 800</p>
+                                <div class="container-selects">
+                                    <label for="tees">Talles</label>
+                                    <select name="tees" id="tees">
+                                        <option value="s">S</option>
+                                        <option value="m">M</option>
+                                        <option value="l">L</option>
+                                        <option value="xl">XL</option>
+                                        <option value="xxl">XXL</option>
+                                    </select>
+                                    <br>
+                                    <label for="color">Color</label>
+                                    <select name="color" id="">
+                                        <option value="black">Black</option>
+                                        <option value="white">White</option>
+                                        <option value="red">Red</option>
+                                        <option value="blue">Blue</option>
+                                    </select>
+                                </div>
+                                <!-- BOTONES CON TRANSICIONES -->
+    
+                                <div class="btn-productos-container">
+                                    <button class="btn-comprar">Comprar</button>
+                                    <a href="#" class="btn-ver" target="_blank">Ver</a>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="contenedor-shorts">
+                                <h3 class="title-grupo">Sweaters</h3>
+                                <img class="foto-producto" src="../multimedia/img/DSC00176-min-1-scaled.jpg" alt="Sweater Underbrand Wave"
+                                    width="200" height="auto">
+                                <p class="price-producto">$ 4200</p>
+                                <div class="container-selects">
+                                    <label for="tees">Talles</label>
+                                    <select name="tees" id="tees">
+                                        <option value="s">S</option>
+                                        <option value="m">M</option>
+                                        <option value="l">L</option>
+                                        <option value="xl">XL</option>
+                                        <option value="xxl">XXL</option>
+                                    </select>
+                                    <br>
+                                    <label for="color">Color</label>
+                                    <select name="color" id="">
+                                        <option value="black">Black</option>
+                                        <option value="white">White</option>
+                                        <option value="red">Red</option>
+                                        <option value="blue">Blue</option>
+                                    </select>
+                                </div>
+                                <!-- BOTONES CON TRANSICIONES -->
+    
+                                <div class="btn-productos-container">
+                                    <button class="btn-comprar">Comprar</button>
+                                    <a href="#" class="btn-ver" target="_blank">Ver</a>
+    
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <div class="contenedor-tees">
-                        <h3 class="title-grupo">Tees</h3>
-                        <img class="foto-producto" src="../multimedia/img/saving-waves.jpg" alt="Saving Waves"
-                            width="200" height="auto">
-                        <p class="price-producto">$ 2500</p>
-                        <div class="container-selects">
-                            <label for="tees">Talles</label>
-                            <select name="tees" id="tees">
-                                <option value="s">S</option>
-                                <option value="m">M</option>
-                                <option value="l">L</option>
-                                <option value="xl">XL</option>
-                                <option value="xxl">XXL</option>
-                            </select>
-                            <br>
-                            <label for="color">Color</label>
-                            <select name="color" id="">
-                                <option value="black">Black</option>
-                                <option value="white">White</option>
-                                <option value="red">Red</option>
-                                <option value="blue">Blue</option>
-                            </select>
-                        </div>
-                        <!-- BOTONES CON TRANSICIONES -->
-
-                        <div class="btn-productos-container">
-                            <button class="btn-comprar">Comprar</button>
-                            <a href="#" class="btn-ver" target="_blank">Ver más</a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <div class="contenedor-hoddies">
-                        <h3 class="title-grupo">Hoodies</h3>
-                        <img class="foto-producto" src="../multimedia/img/black-divot.jpg" alt="Black Divot" width="200"
-                            height="auto">
-                        <p class="price-producto">
-                            <span class="old-price">$7000</span>
-                            <span class="normal-price"> $5600</span>
-                        </p>
-                        <div class="container-selects">
-                            <label for="hoddies">Talles</label>
-                            <select name="hoddies" id="hoddies">
-                                <option value="s">S</option>
-                                <option value="m">M</option>
-                                <option value="l">L</option>
-                                <option value="xl">XL</option>
-                                <option value="xxl">XXL</option>
-                            </select>
-                            <br>
-                            <label for="color">Color</label>
-                            <select name="color" id="">
-                                <option value="black">Black</option>
-                                <option value="white">White</option>
-                                <option value="red">Red</option>
-                                <option value="blue">Blue</option>
-                            </select>
-                        </div>
-                        <!-- BOTONES CON TRANSICIONES -->
-
-                        <div class="btn-productos-container">
-                            <button class="btn-comprar">Comprar</button>
-                            <a href="#" class="btn-ver" target="_blank">Ver más</a>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <div class="contenedor-boardshorts">
-                        <h3 class="title-grupo">Boardshorts</h3>
-                        <img class="foto-producto" src="../multimedia/img/short-chagos.jpg" alt="Traje de baño Chagos"
-                            width="200" height="auto">
-
-                        <p class="price-producto">
-                            <span class="old-price">$4500</span>
-                            <span class="normal-price"> $3800</span>
-                        </p>
-
-                        <div class="container-selects">
-                            <label for="talle">Talles</label>
-                            <select name="talle" id="talle">
-                                <option value="s">S</option>
-                                <option value="m">M</option>
-                                <option value="l">L</option>
-                                <option value="xl">XL</option>
-                                <option value="xxl">XXL</option>
-                            </select>
-                            <br>
-                            <label for="color">Color</label>
-                            <select name="color" id="">
-                                <option value="black">Black</option>
-                                <option value="white">White</option>
-                                <option value="red">Red</option>
-                                <option value="blue">Blue</option>
-                            </select>
-                        </div>
-                        <!-- BOTONES CON TRANSICIONES -->
-
-                        <div class="btn-productos-container">
-                            <button class="btn-comprar">Comprar</button>
-                            <a href="#" class="btn-ver" target="_blank">Ver más</a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <div class="contenedor-accesorios">
-                        <h3 class="title-grupo">Accesorios</h3>
-                        <img class="foto-producto" src="../multimedia/img/gorra-vita.jpg" alt="Gorra Vita" width="200"
-                            height="auto">
-                        <p class="price-producto">$ 1500</p>
-                        <div class="container-selects">
-                            <br>
-                            <label for="color">Color</label>
-                            <select name="color" id="">
-                                <option value="black">Black</option>
-                                <option value="white">White</option>
-                                <option value="red">Red</option>
-                                <option value="blue">Blue</option>
-                            </select>
-                        </div>
-                        <!-- BOTONES CON TRANSICIONES -->
-
-                        <div class="btn-productos-container">
-                            <button class="btn-comprar">Comprar</button>
-                            <a href="#" class="btn-ver" target="_blank">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <div class="contenedor-shorts">
-                        <h3 class="title-grupo">Shorts</h3>
-                        <img class="foto-producto" src="../multimedia/img/short-vita.jpg" alt="Saving Waves" width="200"
-                            height="auto">
-                        <p class="price-producto">$ 2500</p>
-                        <div class="container-selects">
-                            <label for="tees">Talles</label>
-                            <select name="tees" id="tees">
-                                <option value="s">S</option>
-                                <option value="m">M</option>
-                                <option value="l">L</option>
-                                <option value="xl">XL</option>
-                                <option value="xxl">XXL</option>
-                            </select>
-                            <br>
-                            <label for="color">Color</label>
-                            <select name="color" id="">
-                                <option value="black">Black</option>
-                                <option value="white">White</option>
-                                <option value="red">Red</option>
-                                <option value="blue">Blue</option>
-                            </select>
-                        </div>
-                        <!-- BOTONES CON TRANSICIONES -->
-
-                        <div class="btn-productos-container">
-                            <button class="btn-comprar">Comprar</button>
-                            <a href="#" class="btn-ver" target="_blank">Ver más</a>
-
-                        </div>
-                    </div>
-                </div>
-
             </div>
+
 
 
         </section>

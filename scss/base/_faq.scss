@@ -3,13 +3,13 @@
 	justify-content: space-around;
 	flex-direction: row;
 	flex-wrap: wrap	;
-	color: white;
+	color: $color-blanco;
 		.faq-title {
 			width: 1000px;
 			margin: 20px;
 			font-size: 2.5rem;
 			font-family: "Roboto";
-			color: rgb(214, 151, 14);
+			color: $color-principal;
 		}
 		.faq-item-container {
 			display: flex;
@@ -20,9 +20,9 @@
 			flex-wrap: wrap;	
 			margin: 20px 10px;
 			padding: 20px;
-			border: rgb(214, 151, 14) 3px solid;
+			border: $color-principal 3px solid;
 				.title-questions{
-					color: rgb(214, 151, 14);
+					color: $color-principal;
 				}
 				.faq-item-article {
 					display: flex;
@@ -30,7 +30,7 @@
 					flex-wrap: wrap;
 					margin: 0 10px;
 						.faq-title-article {
-							color: rgb(214, 151, 14);
+							color: $color-principal;
 						}
 				
 				}
