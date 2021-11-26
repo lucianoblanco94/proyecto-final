@@ -37,6 +37,8 @@ div {
 	letter-spacing: 2px;
 	width: 100%;
 	margin: 10px auto 15px;
+	font-weight: 600;
+	text-transform: uppercase;
 	
 }
 
@@ -108,6 +110,8 @@ div {
 			color: $color-negro;
 			letter-spacing: 2px;
 			transition: transform 1s;
+			text-transform: uppercase;
+			font-weight: 600;
 			&:hover {
 				color: $color-blanco;
 			}

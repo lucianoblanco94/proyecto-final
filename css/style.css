@@ -278,7 +278,9 @@ div .contenedor-shorts {
   text-align: center;
   letter-spacing: 2px;
   width: 100%;
-  margin: 10px auto 15px; }
+  margin: 10px auto 15px;
+  font-weight: 600;
+  text-transform: uppercase; }
 
 .price-producto {
   font-size: 1.5em;
@@ -339,7 +341,9 @@ div .contenedor-shorts {
       text-decoration: none;
       color: black;
       letter-spacing: 2px;
-      transition: transform 1s; }
+      transition: transform 1s;
+      text-transform: uppercase;
+      font-weight: 600; }
       .products-section-link li a:hover {
         color: #dddddd; }
     .products-section-link li:hover {
