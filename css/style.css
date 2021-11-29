@@ -23,6 +23,15 @@ body {
 
 /* Colores */
 /* Colores Redes Sociales*/
+.brand-title {
+  font-family: 'Calligraffitti';
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 2rem; }
+
+.color-principal {
+  background-color: #d6970e; }
+
 /* Galeria */
 .photo-grid-container {
   display: flex;
