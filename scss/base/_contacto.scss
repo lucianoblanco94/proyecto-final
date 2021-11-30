@@ -61,11 +61,30 @@ label{
 
 }
 
+.client-sex,
+.client-civil {
+	display: flex;
+	justify-content: start;
+	margin: 10px 0 10px 0;
+	select {
+		background-color: $color-blanco;
+		border-radius: 5px;
+		border: solid $color-principal 2px;
+	}
+}
+
+.check-newsletter {
+	display: flex;
+	justify-content: start;
+		input[type="checkbox"] {
+			width: 20px;
+			border-radius: 5px;
+			margin-left: 50px;
+		}
+}
+
 .form-contacto input[type="submit"],
-.form-contacto input[type="reset"],
-.form-contacto input[type="checkbox"],
-.form-contacto input[type="radio"],
-.form-contacto select{
+.form-contacto input[type="reset"]{
 	width: 200px;
 	margin: 0 auto;
 	background:none;
@@ -75,6 +94,9 @@ label{
 	border-radius: 3px;
 	cursor: pointer;
 	font-size: 16px;
+	display: flex;
+	justify-content: end;
+	align-items: center;
     .form-contacto input[type="submit"],
     .form-contacto input[type="reset"] {
         &:hover{
@@ -103,4 +125,13 @@ section iframe {
 	width: 90%;
 	display: flex;
 	justify-content: center;
+}
+
+@media screen and (max-width: 480px){ 
+	.mapa{
+		display: none;
+	}
+	.container-form-contacto {
+		width: 479px;
+	}
 }
