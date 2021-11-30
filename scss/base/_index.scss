@@ -76,7 +76,8 @@
 		flex-direction: column;
 		padding: 20px;
 		margin: 30px;
-		border: solid 3px $color-principal ;
+		border: solid 3px $color-principal;
+		border-radius: 10px;
 		.textNewsletter {
 			font-size: 1.25rem;
 			font-style: italic;
