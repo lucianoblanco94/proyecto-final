@@ -1,4 +1,4 @@
-
+@import '../base/mapas';
 
 footer {
 	color: $color-blanco;
@@ -24,11 +24,11 @@ footer{
 }
 
 .contenedor {
-    .twitter:hover {background: nth($colores-redes, 1); color: $color-blanco; transition: 1s;}
-    .facebook:hover {background: nth($colores-redes,2); color: $color-blanco; transition: 1s;}
-    .youtube:hover {background: nth($colores-redes,3); color: $color-blanco; transition: 1s;}
-    .whatsapp:hover {background: nth($colores-redes,4); color: $color-blanco; transition: 1s;}
-    .instagram:hover {background: nth($colores-redes,5); color: $color-blanco; transition: 1s;}
+    .twitter:hover {background: map-get($redes, twitter); color: $color-blanco; transition: 1s;}
+    .facebook:hover {background: map-get($redes, facebook); color: $color-blanco; transition: 1s;}
+    .youtube:hover {background: map-get($redes, youtube); color: $color-blanco; transition: 1s;}
+    .whatsapp:hover {background: map-get($redes, whatsapp); color: $color-blanco; transition: 1s;}
+    .instagram:hover {background: map-get($redes, instagram); color: $color-blanco; transition: 1s;}
 } 
 
 .contenedor-horas {
@@ -80,7 +80,7 @@ footer {
         font-size: 1.25em;
             a {
                 text-decoration: none;
-                color: $color-blanco;
+                color: map-get($standard, color-claro);
             }
     }
 }
@@ -91,7 +91,7 @@ footer {
 	margin-bottom: 10px;
         a {
             text-decoration: underline;
-            color: $color-blanco;
+            color: map-get($standard, color-claro);
             margin: 0 3px 0 3px;
         }
 }
@@ -99,14 +99,14 @@ footer {
 /* PAYMENT METHODS */
 
 .payments-methods {
-    background-color: $color-principal;
+    background-color: map-get($standard, color-principal);
 }
 
 .title-payments-methods {
         font-size: 1.5rem;
         text-transform: uppercase;
         letter-spacing: 2px;
-        font-family: "Roboto";
+        font-family: map-get($fonts, Roboto);
     }
 .img-payment-methods{
         img{
