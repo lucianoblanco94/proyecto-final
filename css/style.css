@@ -14,10 +14,6 @@ body {
 
 /* Colores */
 /* Colores Redes Sociales*/
-body {
-  font-family: "Roboto", "Open Sans", Sans-serif;
-  font-size: 16px; }
-
 .brand-title {
   font-family: 'Calligraffitti';
   font-weight: 700;
@@ -581,7 +577,9 @@ div .contenedor-shorts {
       flex-wrap: wrap;
       margin: 0 10px; }
       .container-faq .faq-item-container .faq-item-article .faq-title-article {
-        color: #d6970e; }
+        color: #d6970e;
+        text-decoration: underline 2px;
+        text-transform: uppercase; }
 
 .main-contacto {
   margin: 20px auto 20px auto; }

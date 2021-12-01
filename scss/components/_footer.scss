@@ -1,3 +1,5 @@
+
+
 footer {
 	color: $color-blanco;
 }
@@ -22,11 +24,11 @@ footer{
 }
 
 .contenedor {
-    .twitter:hover {background: $twitter; color: $color-blanco; transition: 1s;}
-    .facebook:hover {background: $facebook; color: $color-blanco; transition: 1s;}
-    .youtube:hover {background: $youtube; color: $color-blanco; transition: 1s;}
-    .whatsapp:hover {background: $whatsapp; color: $color-blanco; transition: 1s;}
-    .instagram:hover {background: $instagram; color: $color-blanco; transition: 1s;}
+    .twitter:hover {background: nth($colores-redes, 1); color: $color-blanco; transition: 1s;}
+    .facebook:hover {background: nth($colores-redes,2); color: $color-blanco; transition: 1s;}
+    .youtube:hover {background: nth($colores-redes,3); color: $color-blanco; transition: 1s;}
+    .whatsapp:hover {background: nth($colores-redes,4); color: $color-blanco; transition: 1s;}
+    .instagram:hover {background: nth($colores-redes,5); color: $color-blanco; transition: 1s;}
 } 
 
 .contenedor-horas {

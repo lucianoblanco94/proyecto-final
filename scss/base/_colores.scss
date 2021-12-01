@@ -3,7 +3,6 @@ body {
 	color: rgb(221, 221, 221)
 }
 /* Colores */
-
 	$color-principal: rgb(214, 151, 14);
 	$color-blanco: rgb(221, 221, 221);
 	$color-negro: rgb(0, 0, 0);
@@ -12,8 +11,9 @@ body {
 
 
 /* Colores Redes Sociales*/
-$twitter:#1da1f2;
-$facebook: #3b5998;
-$youtube:#ff0000;
-$whatsapp: #37e627;
-$instagram: #405de6;
+$colores-redes:
+#1da1f2,
+#3b5998,
+#ff0000,
+#37e627,
+#405de6;

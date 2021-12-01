@@ -1,5 +1,4 @@
-@import "../componentes/colores";
-@import "../componentes/fonts";
+@import '../base/colores';
 
 .brand-title {
 	font-family: 'Calligraffitti';
@@ -9,7 +8,7 @@
 }
 
 .color-principal {
-	background-color: rgb(214, 151, 14);
+	background-color: $color-principal;
 }
 
 /* Galeria */
@@ -216,7 +215,7 @@
 	width: 50px;
 	height: 50px;
 	border-radius: 100px;
-	background-color:  $whatsapp;
+	background-color: nth($colores-redes,4);
 	display: flex;
 	justify-content: center;
 	align-items: center;
