@@ -1,0 +1,32 @@
+/* Mapas */ 
+
+$standard: (
+    /* Colores */
+    color-principal: rgb(214, 151, 14),
+    color-claro: rgb(221, 221, 221),
+    color-oscuro: rgb(0, 0, 0),
+
+
+    /* Bordes */
+    border-standard: 2px solid $color-principal,
+    border-radius-standard: 5px,
+);
+
+.border {
+    border: map-get($standard, border-standard);
+}
+
+.border-radius {
+    border-radius: map-get($standard, border-radius-standard);
+}
+
+$redes:(
+    twitter:#1da1f2,
+    facebook:#3b5998,
+    youtube:#ff0000,
+    whatsapp:#37e627,
+    instagram:#405de6,
+);
+
+
+
