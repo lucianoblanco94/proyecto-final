@@ -1,12 +1,12 @@
 @import '../base/mapas';
+@import '../base/extends';
 
 footer {
 	color: $color-blanco;
 }
 footer{
     .contenedor {
-	    display: flex;
-	    justify-content: center;
+        @extend %c-flex;
     }
 }
     
@@ -32,8 +32,7 @@ footer{
 } 
 
 .contenedor-horas {
-    display: flex;
-    justify-content: center;
+    @extend %c-flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -48,16 +47,14 @@ footer {
 	    text-decoration: underline solid 2px;
 	    letter-spacing: 2px;
 	    color: $color-blanco;
-        display: flex;
-        justify-content: center;
+        @extend %c-flex;
         width: 100%;
     }
 }
 
 .contenedor-horas {
     ul {
-        display: flex;
-        justify-content: center;
+        @extend %c-flex;
         width: 100%;
         padding-left: 0;
         flex-direction: column;
@@ -67,8 +64,7 @@ footer {
                 list-style-type: none;
                 text-align: center;
                 font-size: 1.25em;
-                display: flex;
-                justify-content: center;
+                @extend %c-flex;
                 margin: 10px;
         }
     }
@@ -86,8 +82,7 @@ footer {
 }
 
 .copyright {
-	display: flex;
-	justify-content: center;
+    @extend %c-flex;
 	margin-bottom: 10px;
         a {
             text-decoration: underline;
@@ -123,13 +118,11 @@ footer {
         flex-direction: column;
         .contenedor-horas,
         .contenedor-ubi {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+	        display: flex;
+		    justify-content: center;          
+            flex-direction: column;            
         }
-
     }
-
 }
 
 @media screen and (max-width: 480px){

@@ -25,7 +25,7 @@ div .contenedor-boardshorts,
 div .contenedor-accesorios,
 div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .form-contacto input, .form-contacto input[type="text"],
 .form-contacto input[type="email"],
-.form-contacto textarea, .mapa, section iframe {
+.form-contacto textarea, .mapa, section iframe, footer .contenedor, .contenedor-horas, footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes, .contenedor-horas ul, .contenedor-horas ul .lun-vier, .contenedor-horas ul .sab, .contenedor-horas ul .dom, .copyright {
   display: flex;
   justify-content: center; }
 
@@ -210,8 +210,8 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
 @media screen and (min-width: 481px) and (max-width: 960px) {
   .nos-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    flex-direction: column; }
 
   .banner-envios {
     width: 100%; }
@@ -220,8 +220,8 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
 @media screen and (max-width: 480px) {
   .nos-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    flex-direction: column; }
 
   .photo-grid-container {
     display: flex; }
@@ -256,7 +256,7 @@ div .contenedor-boardshorts,
 div .contenedor-accesorios,
 div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .form-contacto input, .form-contacto input[type="text"],
 .form-contacto input[type="email"],
-.form-contacto textarea, .mapa, section iframe {
+.form-contacto textarea, .mapa, section iframe, footer .contenedor, .contenedor-horas, footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes, .contenedor-horas ul, .contenedor-horas ul .lun-vier, .contenedor-horas ul .sab, .contenedor-horas ul .dom, .copyright {
   display: flex;
   justify-content: center; }
 
@@ -416,6 +416,22 @@ div .contenedor-shorts {
 .border-radius {
   border-radius: 5px; }
 
+.photo-grid-container, .photo-grid-container .photo-grid, .container-newsletter .newsletter, .container-newsletter .newsletter .inputNewsletter, .container-newsletter .newsletter .btnNewsletter, .nos-container, .banner-envios, .container-servicio .row, .container-servicio .row div, .container-servicio .row .service-thumb, .fixed-wapp, div .contenedor-zapatillas,
+div .contenedor-tees,
+div .contenedor-hoddies,
+div .contenedor-boardshorts,
+div .contenedor-accesorios,
+div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .form-contacto input, .form-contacto input[type="text"],
+.form-contacto input[type="email"],
+.form-contacto textarea, .mapa, section iframe, footer .contenedor, .contenedor-horas, footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes, .contenedor-horas ul, .contenedor-horas ul .lun-vier, .contenedor-horas ul .sab, .contenedor-horas ul .dom, .copyright {
+  display: flex;
+  justify-content: center; }
+
+.photo-grid-container .photo-grid-title, .client-sex,
+.client-civil, .check-newsletter {
+  display: flex;
+  justify-content: start; }
+
 .container-blog {
   color: #dddddd;
   width: 90%;
@@ -569,6 +585,22 @@ div .contenedor-shorts {
 .border-radius {
   border-radius: 5px; }
 
+.photo-grid-container, .photo-grid-container .photo-grid, .container-newsletter .newsletter, .container-newsletter .newsletter .inputNewsletter, .container-newsletter .newsletter .btnNewsletter, .nos-container, .banner-envios, .container-servicio .row, .container-servicio .row div, .container-servicio .row .service-thumb, .fixed-wapp, div .contenedor-zapatillas,
+div .contenedor-tees,
+div .contenedor-hoddies,
+div .contenedor-boardshorts,
+div .contenedor-accesorios,
+div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .form-contacto input, .form-contacto input[type="text"],
+.form-contacto input[type="email"],
+.form-contacto textarea, .mapa, section iframe, footer .contenedor, .contenedor-horas, footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes, .contenedor-horas ul, .contenedor-horas ul .lun-vier, .contenedor-horas ul .sab, .contenedor-horas ul .dom, .copyright {
+  display: flex;
+  justify-content: center; }
+
+.photo-grid-container .photo-grid-title, .client-sex,
+.client-civil, .check-newsletter {
+  display: flex;
+  justify-content: start; }
+
 .container-faq {
   display: flex;
   justify-content: space-around;
@@ -620,7 +652,7 @@ div .contenedor-boardshorts,
 div .contenedor-accesorios,
 div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .form-contacto input, .form-contacto input[type="text"],
 .form-contacto input[type="email"],
-.form-contacto textarea, .mapa, section iframe {
+.form-contacto textarea, .mapa, section iframe, footer .contenedor, .contenedor-horas, footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes, .contenedor-horas ul, .contenedor-horas ul .lun-vier, .contenedor-horas ul .sab, .contenedor-horas ul .dom, .copyright {
   display: flex;
   justify-content: center; }
 
@@ -731,12 +763,24 @@ section iframe {
 .border-radius {
   border-radius: 5px; }
 
-footer {
-  color: #dddddd; }
-
-footer .contenedor {
+.photo-grid-container, .photo-grid-container .photo-grid, .container-newsletter .newsletter, .container-newsletter .newsletter .inputNewsletter, .container-newsletter .newsletter .btnNewsletter, .nos-container, .banner-envios, .container-servicio .row, .container-servicio .row div, .container-servicio .row .service-thumb, .fixed-wapp, div .contenedor-zapatillas,
+div .contenedor-tees,
+div .contenedor-hoddies,
+div .contenedor-boardshorts,
+div .contenedor-accesorios,
+div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .form-contacto input, .form-contacto input[type="text"],
+.form-contacto input[type="email"],
+.form-contacto textarea, .mapa, section iframe, footer .contenedor, .contenedor-horas, footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes, .contenedor-horas ul, .contenedor-horas ul .lun-vier, .contenedor-horas ul .sab, .contenedor-horas ul .dom, .copyright {
   display: flex;
   justify-content: center; }
+
+.photo-grid-container .photo-grid-title, .client-sex,
+.client-civil, .check-newsletter {
+  display: flex;
+  justify-content: start; }
+
+footer {
+  color: #dddddd; }
 
 .contenedor a {
   color: #dddddd;
@@ -769,8 +813,6 @@ footer .contenedor {
   transition: 1s; }
 
 .contenedor-horas {
-  display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   flex-direction: row; }
 
@@ -782,13 +824,9 @@ footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes {
   text-decoration: underline solid 2px;
   letter-spacing: 2px;
   color: #dddddd;
-  display: flex;
-  justify-content: center;
   width: 100%; }
 
 .contenedor-horas ul {
-  display: flex;
-  justify-content: center;
   width: 100%;
   padding-left: 0;
   flex-direction: column; }
@@ -796,8 +834,6 @@ footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes {
     list-style-type: none;
     text-align: center;
     font-size: 1.25em;
-    display: flex;
-    justify-content: center;
     margin: 10px; }
 
 .contenedor-ubi .calle {
@@ -808,8 +844,6 @@ footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes {
     color: #dddddd; }
 
 .copyright {
-  display: flex;
-  justify-content: center;
   margin-bottom: 10px; }
   .copyright a {
     text-decoration: underline;
@@ -836,8 +870,8 @@ footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes {
     .contenedor-hu .contenedor-horas,
     .contenedor-hu .contenedor-ubi {
       display: flex;
-      flex-direction: column;
-      justify-content: center; } }
+      justify-content: center;
+      flex-direction: column; } }
 body {
   background: url("../src/multimedia/img/fondo-texturizado-negro.jpg") fixed center;
   color: #dddddd; }
@@ -862,7 +896,7 @@ div .contenedor-boardshorts,
 div .contenedor-accesorios,
 div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .form-contacto input, .form-contacto input[type="text"],
 .form-contacto input[type="email"],
-.form-contacto textarea, .mapa, section iframe {
+.form-contacto textarea, .mapa, section iframe, footer .contenedor, .contenedor-horas, footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes, .contenedor-horas ul, .contenedor-horas ul .lun-vier, .contenedor-horas ul .sab, .contenedor-horas ul .dom, .copyright {
   display: flex;
   justify-content: center; }
 
