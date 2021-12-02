@@ -35,6 +35,7 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
   display: flex;
   justify-content: start; }
 
+/* Mixins */
 .brand-title {
   font-family: "Calligraffitti";
   font-weight: 700;
@@ -67,16 +68,17 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
         border: #dddddd solid 4px;
         padding: 2px; }
     .photo-grid-container .photo-grid img {
-      vertical-align: top;
-      width: 100%;
       opacity: .7;
       transition: all; }
       .photo-grid-container .photo-grid img:hover {
         opacity: 1;
-        -webkit-transition: all .3s ease;
-        -o-transition: all .3s ease;
-        transition: all .3s ease;
-        transform: rotateX(360deg); }
+        -webkit-transition: all .7s ease;
+        -o-transition: all .7s ease;
+        transition: all .7s ease;
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+        -o-transform: rotateY(360deg);
+        transform: rotateY(360deg); }
 
 /* NEWSLETTER */
 .container-newsletter {
@@ -146,6 +148,9 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
     transition: all; }
     .banner-envios .contenedor-banner img:hover {
       transition: all 1s;
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -o-transform: scale(1.05);
       transform: scale(1.05); }
 
 /* SECTION SERVICIOS*/
@@ -267,6 +272,7 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
   display: flex;
   justify-content: start; }
 
+/* Mixins */
 .title-section-productos {
   font-size: 2.5em;
   color: #d6970e;
@@ -371,13 +377,19 @@ div .contenedor-shorts {
   .btn-ver:hover {
     opacity: 0.8;
     color: #dddddd;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
     transform: scale(1.5); }
 
 .foto-producto {
   transition: transform 1s; }
   .foto-producto:hover {
     opacity: 0.9;
-    transition: scale(1.1); }
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
 
 /* Menu lateral */
 .products-section-link {
@@ -411,30 +423,6 @@ div .contenedor-shorts {
 @media screen and (max-width: 480px) {
   .products-section-link {
     display: none; } }
-/* Mapas */
-.border {
-  border: 2px solid #d6970e; }
-
-.border-radius {
-  border-radius: 5px; }
-
-/* Flex */
-.photo-grid-container, .photo-grid-container .photo-grid, .container-newsletter .newsletter, .container-newsletter .newsletter .inputNewsletter, .container-newsletter .newsletter .btnNewsletter, .nos-container, .banner-envios, .container-servicio .row, .container-servicio .row div, .container-servicio .row .service-thumb, .fixed-wapp, div .contenedor-zapatillas,
-div .contenedor-tees,
-div .contenedor-hoddies,
-div .contenedor-boardshorts,
-div .contenedor-accesorios,
-div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .form-contacto input, .form-contacto input[type="text"],
-.form-contacto input[type="email"],
-.form-contacto textarea, .mapa, section iframe, footer .contenedor, .contenedor-horas, footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes, .contenedor-horas ul, .contenedor-horas ul .lun-vier, .contenedor-horas ul .sab, .contenedor-horas ul .dom, .copyright {
-  display: flex;
-  justify-content: center; }
-
-.photo-grid-container .photo-grid-title, .client-sex,
-.client-civil, .check-newsletter {
-  display: flex;
-  justify-content: start; }
-
 .container-blog {
   color: #dddddd;
   width: 90%;
@@ -581,30 +569,6 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
       grid-area: articulocinco; }
     .grid-blog .blog-article-seis {
       grid-area: articuloseis; } }
-/* Mapas */
-.border {
-  border: 2px solid #d6970e; }
-
-.border-radius {
-  border-radius: 5px; }
-
-/* Flex */
-.photo-grid-container, .photo-grid-container .photo-grid, .container-newsletter .newsletter, .container-newsletter .newsletter .inputNewsletter, .container-newsletter .newsletter .btnNewsletter, .nos-container, .banner-envios, .container-servicio .row, .container-servicio .row div, .container-servicio .row .service-thumb, .fixed-wapp, div .contenedor-zapatillas,
-div .contenedor-tees,
-div .contenedor-hoddies,
-div .contenedor-boardshorts,
-div .contenedor-accesorios,
-div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .form-contacto input, .form-contacto input[type="text"],
-.form-contacto input[type="email"],
-.form-contacto textarea, .mapa, section iframe, footer .contenedor, .contenedor-horas, footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes, .contenedor-horas ul, .contenedor-horas ul .lun-vier, .contenedor-horas ul .sab, .contenedor-horas ul .dom, .copyright {
-  display: flex;
-  justify-content: center; }
-
-.photo-grid-container .photo-grid-title, .client-sex,
-.client-civil, .check-newsletter {
-  display: flex;
-  justify-content: start; }
-
 .container-faq {
   display: flex;
   justify-content: space-around;
@@ -637,34 +601,6 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
         color: #d6970e;
         text-decoration: underline 2px;
         text-transform: uppercase; }
-
-/* Mapas */
-.border {
-  border: 2px solid #d6970e; }
-
-.border-radius {
-  border-radius: 5px; }
-
-body {
-  font-family: "Roboto", "Open Sans", Sans-serif;
-  font-size: 16px; }
-
-/* Flex */
-.photo-grid-container, .photo-grid-container .photo-grid, .container-newsletter .newsletter, .container-newsletter .newsletter .inputNewsletter, .container-newsletter .newsletter .btnNewsletter, .nos-container, .banner-envios, .container-servicio .row, .container-servicio .row div, .container-servicio .row .service-thumb, .fixed-wapp, div .contenedor-zapatillas,
-div .contenedor-tees,
-div .contenedor-hoddies,
-div .contenedor-boardshorts,
-div .contenedor-accesorios,
-div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .form-contacto input, .form-contacto input[type="text"],
-.form-contacto input[type="email"],
-.form-contacto textarea, .mapa, section iframe, footer .contenedor, .contenedor-horas, footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes, .contenedor-horas ul, .contenedor-horas ul .lun-vier, .contenedor-horas ul .sab, .contenedor-horas ul .dom, .copyright {
-  display: flex;
-  justify-content: center; }
-
-.photo-grid-container .photo-grid-title, .client-sex,
-.client-civil, .check-newsletter {
-  display: flex;
-  justify-content: start; }
 
 .main-contacto {
   margin: 20px auto 20px auto; }
@@ -761,30 +697,6 @@ section iframe {
 
   .container-form-contacto {
     width: 479px; } }
-/* Mapas */
-.border {
-  border: 2px solid #d6970e; }
-
-.border-radius {
-  border-radius: 5px; }
-
-/* Flex */
-.photo-grid-container, .photo-grid-container .photo-grid, .container-newsletter .newsletter, .container-newsletter .newsletter .inputNewsletter, .container-newsletter .newsletter .btnNewsletter, .nos-container, .banner-envios, .container-servicio .row, .container-servicio .row div, .container-servicio .row .service-thumb, .fixed-wapp, div .contenedor-zapatillas,
-div .contenedor-tees,
-div .contenedor-hoddies,
-div .contenedor-boardshorts,
-div .contenedor-accesorios,
-div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .form-contacto input, .form-contacto input[type="text"],
-.form-contacto input[type="email"],
-.form-contacto textarea, .mapa, section iframe, footer .contenedor, .contenedor-horas, footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes, .contenedor-horas ul, .contenedor-horas ul .lun-vier, .contenedor-horas ul .sab, .contenedor-horas ul .dom, .copyright {
-  display: flex;
-  justify-content: center; }
-
-.photo-grid-container .photo-grid-title, .client-sex,
-.client-civil, .check-newsletter {
-  display: flex;
-  justify-content: start; }
-
 footer {
   color: #dddddd; }
 
@@ -911,5 +823,7 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
 .client-civil, .check-newsletter {
   display: flex;
   justify-content: start; }
+
+/* Mixins */
 
 /*# sourceMappingURL=style.css.map */

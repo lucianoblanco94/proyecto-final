@@ -12,14 +12,15 @@
 
 
 
-@import "./components/index";
-@import "./components/productos";
-@import "./components/blog";
-@import "./components/faq";
-@import "./components/contacto";
-@import "./components/footer";
-@import "./base/colores";
-@import "./base/fonts";
-@import "./base/mediaqueries";
-@import "./base/mapas.scss";
-@import "./base/extends";
+@import "components/index";
+@import "components/productos";
+@import "components/blog";
+@import "components/faq";
+@import "components/contacto";
+@import "components/footer";
+@import "base/colores";
+@import "base/fonts";
+@import "base/mediaqueries";
+@import "base/mapas.scss";
+@import "base/extends";
+@import "base/mixins";

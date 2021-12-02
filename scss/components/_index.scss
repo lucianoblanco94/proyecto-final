@@ -1,6 +1,7 @@
 @import '../base/colores';
 @import '../base/fonts';
 @import '../base/extends';
+@import '../base/mixins';
 
 .brand-title {
 	font-family: map-get($fonts, font-calligrafitti);
@@ -44,16 +45,14 @@
 				}
 			}
 			img{
-				vertical-align: top;
-				width: 100%;
 				opacity: .7;
 				transition: all;
 				&:hover{
 					opacity:1;
-					-webkit-transition: all .3s ease;
-					-o-transition: all .3s ease;
-					transition: all .3s ease;
-					transform: rotateX(360deg);
+					-webkit-transition: all .7s ease;
+					-o-transition: all .7s ease;
+					transition: all .7s ease;
+					@include transform(rotateY(360deg));
 				}
 				
 			}
@@ -154,7 +153,7 @@
 				transition: all;
 				&:hover {
 					transition: all 1s;
-					transform: scale(1.05);
+					@include transform(scale(1.05));
 				}
 			}
 	}
