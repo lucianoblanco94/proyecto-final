@@ -2,6 +2,7 @@
 @import '../base/fonts';
 @import '../base/extends';
 @import '../base/mixins';
+@import '../base/mapas';
 
 .brand-title {
 	font-family: map-get($fonts, font-calligrafitti);
@@ -11,12 +12,31 @@
 }
 
 .color-principal {
-	background-color: $color-principal;
+	background-color: $color-principal
 }
 
+.btn-shop {
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	background-color: transparent;
+	border-radius: 20px;
+		a {
+			color: map-get($standard, color-claro);
+			text-decoration: none;
+			letter-spacing: 2px;
+		}
+	&:hover {
+		background-color: $color-blanco;
+		a {
+			color: $color-negro;
+		}
+	}
+
+}
+
+
 /* Galeria */
-
-
 .photo-grid-container{
 	@extend %c-flex;
 	flex-direction: column;
@@ -27,7 +47,7 @@
 		margin: 30px;
 		color: $color-blanco;
 		@extend %s-flex;
-		color: $color-principal;
+		color: map-get($standard, color-principal);
 	}
 	.photo-grid {
 		width: 100%;
@@ -137,9 +157,6 @@
 	}
 	
 }
-
-
-
 
 /* SECTION BANNER */
 .banner-envios {

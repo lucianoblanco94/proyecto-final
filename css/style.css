@@ -36,6 +36,16 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
   justify-content: start; }
 
 /* Mixins */
+/* Mapas */
+.border {
+  border: 2px solid #d6970e; }
+
+.w-border {
+  border: 2px solid #dddddd; }
+
+.border-radius {
+  border-radius: 5px; }
+
 .brand-title {
   font-family: "Calligraffitti";
   font-weight: 700;
@@ -44,6 +54,21 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
 
 .color-principal {
   background-color: #d6970e; }
+
+.btn-shop {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 20px; }
+  .btn-shop a {
+    color: #dddddd;
+    text-decoration: none;
+    letter-spacing: 2px; }
+  .btn-shop:hover {
+    background-color: #dddddd; }
+    .btn-shop:hover a {
+      color: black; }
 
 /* Galeria */
 .photo-grid-container {
@@ -251,6 +276,9 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
 /* Mapas */
 .border {
   border: 2px solid #d6970e; }
+
+.w-border {
+  border: 2px solid #dddddd; }
 
 .border-radius {
   border-radius: 5px; }
@@ -803,6 +831,9 @@ body {
 /* Mapas */
 .border {
   border: 2px solid #d6970e; }
+
+.w-border {
+  border: 2px solid #dddddd; }
 
 .border-radius {
   border-radius: 5px; }

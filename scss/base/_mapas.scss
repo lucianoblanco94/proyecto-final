@@ -16,6 +16,10 @@ $standard: (
     border: map-get($standard, border-standard);
 }
 
+.w-border {
+    border: 2px solid $color-blanco;
+}
+
 .border-radius {
     border-radius: map-get($standard, border-radius-standard);
 }
