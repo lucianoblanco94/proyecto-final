@@ -3,9 +3,9 @@
 }
 
 .container-form-contacto {
-	width: 100%;
+	width: 90%;
 	@extend %c-flex;
-
+	margin: auto;
 	padding: 10px;
 	flex-direction: column;
 		.title-section-contacto {
@@ -13,16 +13,13 @@
 			color: map-get($standard, color-principal);
 			text-align: left;
 			margin: 10px auto;
-			@extend %c-flex;
-
-		
+			@extend %c-flex;		
 	}
 }
 
-
 .form-contacto {
 	background-color: map-get($standard, color-claro);
-	width: 600px;
+	width: 100%;
 	margin: 20px auto;
 	padding: 20px 20px;
 	border: map-get($standard, border-standard);
@@ -42,7 +39,7 @@
 	width: 90%;
 	@extend %c-flex;
 	padding: 20px;
-	margin-bottom: 20px;
+	margin: 20px auto ;
 	border-radius: 3px;
 	border: map-get($standard, border-standard);
 	font-family: map-get($fonts, Roboto);
@@ -56,7 +53,7 @@
 	margin-top: 10px;
 }
 label{
-	margin: 10px 10px;
+	margin: 10px 30px;
 
 }
 
@@ -106,20 +103,11 @@ label{
     }
 }
 
-
-.form-contacto input[type="submit"]:hover,
-.form-contacto input[type="reset"]:hover{
-	background-color: map-get($standard, color-principal);
-	color: map-get($standard, color-claro);
-	font-weight: bold;
-}
-
 .mapa {
 	@extend %c-flex;
 
 }
 section iframe {
-	max-height: 600px;
 	margin: 10px;
 	width: 90%;
 	@extend %c-flex;
@@ -127,10 +115,7 @@ section iframe {
 }
 
 @media screen and (max-width: 480px){ 
-	.mapa{
+	.mapa {
 		display: none;
-	}
-	.container-form-contacto {
-		width: 479px;
 	}
 }

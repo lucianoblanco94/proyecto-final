@@ -9,7 +9,7 @@
   margin: 100px auto 20px auto; }
 
 body {
-  background: url("../src/multimedia/img/fondo-texturizado-negro.jpg") fixed center;
+  background: #000;
   color: #dddddd; }
 
 /* Colores */
@@ -56,11 +56,17 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
   background-color: #d6970e; }
 
 .btn-shop {
-  position: absolute;
+  position: absolute !important;
   width: 120px;
   height: 40px;
   background-color: transparent;
-  border-radius: 20px; }
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  left: 47%;
+  top: 50%; }
   .btn-shop a {
     color: #dddddd;
     text-decoration: none;
@@ -272,6 +278,9 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
     display: none; }
 
   .fixed-help, .fixed-wapp {
+    display: none; }
+
+  .btn-shop {
     display: none; } }
 /* Mapas */
 .border {
@@ -542,23 +551,6 @@ div .contenedor-shorts {
           color: #dddddd;
           transform: scale(1.15); }
 
-@media screen and (min-width: 961px) {
-  .blog-article-uno,
-  .blog-article-dos,
-  .blog-article-tres,
-  .blog-article-cuatro,
-  .blog-article-cinco,
-  .blog-article-seis {
-    position: relative; }
-    .blog-article-uno .btn-read-more,
-    .blog-article-dos .btn-read-more,
-    .blog-article-tres .btn-read-more,
-    .blog-article-cuatro .btn-read-more,
-    .blog-article-cinco .btn-read-more,
-    .blog-article-seis .btn-read-more {
-      position: absolute;
-      bottom: 10px;
-      right: 20px; } }
 @media screen and (min-width: 481px) and (max-width: 960px) {
   .grid-blog {
     display: grid;
@@ -634,7 +626,8 @@ div .contenedor-shorts {
   margin: 20px auto 20px auto; }
 
 .container-form-contacto {
-  width: 100%;
+  width: 90%;
+  margin: auto;
   padding: 10px;
   flex-direction: column; }
   .container-form-contacto .title-section-contacto {
@@ -645,7 +638,7 @@ div .contenedor-shorts {
 
 .form-contacto {
   background-color: #dddddd;
-  width: 600px;
+  width: 100%;
   margin: 20px auto;
   padding: 20px 20px;
   border: 2px solid #d6970e;
@@ -658,7 +651,7 @@ div .contenedor-shorts {
 .form-contacto textarea {
   width: 90%;
   padding: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto;
   border-radius: 3px;
   border: 2px solid #d6970e; }
 
@@ -670,7 +663,7 @@ div .contenedor-shorts {
   margin-top: 10px; }
 
 label {
-  margin: 10px 10px; }
+  margin: 10px 30px; }
 
 .client-sex,
 .client-civil {
@@ -708,23 +701,13 @@ label {
     color: #dddddd;
     font-weight: bold; }
 
-.form-contacto input[type="submit"]:hover,
-.form-contacto input[type="reset"]:hover {
-  background-color: #d6970e;
-  color: #dddddd;
-  font-weight: bold; }
-
 section iframe {
-  max-height: 600px;
   margin: 10px;
   width: 90%; }
 
 @media screen and (max-width: 480px) {
   .mapa {
-    display: none; }
-
-  .container-form-contacto {
-    width: 479px; } }
+    display: none; } }
 footer {
   color: #dddddd; }
 
@@ -819,7 +802,7 @@ footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes {
       justify-content: center;
       flex-direction: column; } }
 body {
-  background: url("../src/multimedia/img/fondo-texturizado-negro.jpg") fixed center;
+  background: #000;
   color: #dddddd; }
 
 /* Colores */

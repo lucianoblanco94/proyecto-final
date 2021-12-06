@@ -16,11 +16,17 @@
 }
 
 .btn-shop {
-	position: absolute;
+	position: absolute !important;
 	width: 120px;
 	height: 40px;
 	background-color: transparent;
 	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	left: 47%;
+	top: 50%;
 		a {
 			color: map-get($standard, color-claro);
 			text-decoration: none;
@@ -34,7 +40,6 @@
 	}
 
 }
-
 
 /* Galeria */
 .photo-grid-container{
@@ -305,5 +310,8 @@
 		display: none;
 	}
 	.fixed-help, .fixed-wapp {display: none;}
+	.btn-shop {
+		display: none;
+	}
 }
 
