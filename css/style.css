@@ -130,8 +130,7 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
       color: #d6970e;
       text-decoration: underline 3px;
       letter-spacing: 2px;
-      text-align: center;
-      width: 100%; }
+      text-align: center; }
     .container-newsletter .newsletter .inputNewsletter {
       width: 100%;
       padding: 5px;
