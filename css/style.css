@@ -473,7 +473,7 @@ div .contenedor-shorts {
     grid-template-columns: repeat(3, 3fr);
     grid-template-rows: repeat(4, 3fr);
     grid-template-areas: 'articulouno articulouno articulouno' 'articulodos articulotres articulotres' 'articulodos articulocuatro articulocuatro' 'articulocinco articulocinco articuloseis';
-    gap: 30px; }
+    gap: 20px; }
     .container-blog .grid-blog .blog-article-uno {
       grid-area: articulouno; }
     .container-blog .grid-blog .blog-article-dos {
@@ -492,6 +492,8 @@ div .contenedor-shorts {
     .container-blog .grid-blog .blog-article-cuatro,
     .container-blog .grid-blog .blog-article-cinco,
     .container-blog .grid-blog .blog-article-seis {
+      position: relative;
+      width: 100%;
       border: 2px solid #d6970e;
       padding: 20px;
       border-radius: 5px; }
@@ -519,7 +521,6 @@ div .contenedor-shorts {
       .container-blog .grid-blog .blog-article-seis .btn-read-more {
         width: 200px;
         height: 30px;
-        margin: 5px 0;
         font-weight: bold;
         background-color: #d6970e;
         border: none;
@@ -529,7 +530,10 @@ div .contenedor-shorts {
         letter-spacing: 2px;
         transition: transform 1s;
         display: flex;
-        justify-content: center; }
+        justify-content: center;
+        position: absolute;
+        bottom: 5px;
+        right: 15px; }
         .container-blog .grid-blog .blog-article-uno .btn-read-more a,
         .container-blog .grid-blog .blog-article-dos .btn-read-more a,
         .container-blog .grid-blog .blog-article-tres .btn-read-more a,
@@ -548,15 +552,15 @@ div .contenedor-shorts {
         .container-blog .grid-blog .blog-article-seis .btn-read-more:hover {
           opacity: 0.8;
           color: #dddddd;
-          transform: scale(1.15); }
+          transform: scale(1.05); }
 
 @media screen and (min-width: 481px) and (max-width: 960px) {
   .grid-blog {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-areas: 'articulouno' 'articulodos' 'articulotres' 'articulocuatro' 'articulocinco' 'articuloseis';
-    gap: 30px; }
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-rows: repeat(6, 1fr) !important;
+    grid-template-areas: 'articulouno' 'articulodos' 'articulotres' 'articulocuatro' 'articulocinco' 'articuloseis' !important;
+    gap: 20px; }
     .grid-blog .blog-article-uno {
       grid-area: articulouno; }
     .grid-blog .blog-article-dos {
@@ -571,11 +575,11 @@ div .contenedor-shorts {
       grid-area: articuloseis; } }
 @media screen and (max-width: 480px) {
   .grid-blog {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-areas: 'articulouno' 'articulodos' 'articulotres' 'articulocuatro' 'articulocinco' 'articuloseis';
-    gap: 30px; }
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-rows: repeat(6, 1fr) !important;
+    grid-template-areas: 'articulouno' 'articulodos' 'articulotres' 'articulocuatro' 'articulocinco' 'articuloseis' !important;
+    gap: 20px !important; }
     .grid-blog .blog-article-uno {
       grid-area: articulouno; }
     .grid-blog .blog-article-dos {
