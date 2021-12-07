@@ -70,6 +70,7 @@
 				}
 			}
 			img{
+				width: 100%;
 				opacity: .7;
 				transition: all;
 				&:hover{
@@ -274,11 +275,10 @@
 		justify-content: center;
 		flex-direction: column;
 	}
-	.banner-envios {
-		width: 100%;
-			.contenedor-banner {
-				width: 100%;
-			}
+	.contenedor-banner {
+		img {
+			width: 100% !important;
+		}
 	}
 }
 
@@ -305,8 +305,10 @@
 					}			
 			}
 	}
-	.banner-envios {
-		display: none;
+	.contenedor-banner {
+		img {
+			width: 100% !important;
+		}
 	}
 	.fixed-help, .fixed-wapp {display: none;}
 	.btn-shop {

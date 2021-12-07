@@ -1,7 +1,3 @@
-.main-contacto {
-	margin: 20px auto 20px auto;
-}
-
 .container-form-contacto {
 	width: 90%;
 	@extend %c-flex;
@@ -15,22 +11,19 @@
 			margin: 10px auto;
 			@extend %c-flex;		
 	}
-}
-
-.form-contacto {
-	background-color: map-get($standard, color-claro);
-	width: 100%;
-	margin: 20px auto;
-	padding: 20px 20px;
-	border: map-get($standard, border-standard);
-	border-radius: 10px;
-	color: map-get($standard, color-oscuro);
-	font-weight: bold;
-}
-
-.form-contacto input{
-	@extend %c-flex;
-
+		.form-contacto {
+			background-color: map-get($standard, color-claro);
+			width: 100%;
+			margin: 20px auto;
+			padding: 20px 20px;
+			border: map-get($standard, border-standard);
+			border-radius: 10px;
+			color: map-get($standard, color-oscuro);
+			font-weight: bold;
+				input {
+					@extend %c-flex;
+				}
+		}
 }
 
 .form-contacto input[type="text"],
@@ -111,6 +104,32 @@ section iframe {
 	margin: 10px;
 	width: 90%;
 	@extend %c-flex;
+
+}
+
+.btn-call {
+	position: absolute !important;
+	width: 120px;
+	height: 40px;
+	background-color: transparent;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	left: 47%;
+	top: 50%;
+		a {
+			color: map-get($standard, color-claro);
+			text-decoration: none;
+			letter-spacing: 2px;
+		}
+	&:hover {
+		background-color: $color-blanco;
+		a {
+			color: $color-negro;
+		}
+	}
 
 }
 

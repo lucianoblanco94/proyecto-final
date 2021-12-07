@@ -24,7 +24,7 @@ div .contenedor-tees,
 div .contenedor-hoddies,
 div .contenedor-boardshorts,
 div .contenedor-accesorios,
-div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .form-contacto input, .form-contacto input[type="text"],
+div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .container-form-contacto .form-contacto input, .form-contacto input[type="text"],
 .form-contacto input[type="email"],
 .form-contacto textarea, .mapa, section iframe, footer .contenedor, .contenedor-horas, footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes, .contenedor-horas ul, .contenedor-horas ul .lun-vier, .contenedor-horas ul .sab, .contenedor-horas ul .dom, .copyright {
   display: flex;
@@ -38,7 +38,7 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
 /* Mixins */
 /* Mapas */
 .border {
-  border: 2px solid #d6970e; }
+  border: 2px solid rgba(214, 151, 14, 0.7); }
 
 .w-border {
   border: 2px solid #dddddd; }
@@ -53,7 +53,7 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
   font-size: 2rem; }
 
 .color-principal {
-  background-color: #d6970e; }
+  background-color: rgba(214, 151, 14, 0.7); }
 
 .btn-shop {
   position: absolute !important;
@@ -99,6 +99,7 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
         border: #dddddd solid 4px;
         padding: 2px; }
     .photo-grid-container .photo-grid img {
+      width: 100%;
       opacity: .7;
       transition: all; }
       .photo-grid-container .photo-grid img:hover {
@@ -122,12 +123,12 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
     flex-direction: column;
     padding: 20px;
     margin: 30px;
-    border: solid 3px #d6970e;
+    border: solid 3px rgba(214, 151, 14, 0.7);
     border-radius: 10px; }
     .container-newsletter .newsletter .textNewsletter {
       font-size: 1.25rem;
       font-style: italic;
-      color: #d6970e;
+      color: rgba(214, 151, 14, 0.7);
       text-decoration: underline 3px;
       letter-spacing: 2px;
       text-align: center; }
@@ -144,7 +145,7 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
       padding: 5px 5px;
       text-align: center;
       background-color: black;
-      color: #d6970e;
+      color: rgba(214, 151, 14, 0.7);
       width: 90%;
       font-weight: bold;
       border-radius: 5px;
@@ -152,7 +153,7 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
       .container-newsletter .newsletter .btnNewsletter:hover {
         text-decoration: none;
         color: #dddddd;
-        background-color: #d6970e; }
+        background-color: rgba(214, 151, 14, 0.7); }
 
 /* NOSOTROS */
 .nos-container {
@@ -162,7 +163,7 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
     font-size: 2.5em;
     text-align: left;
     margin: 30px;
-    color: #d6970e;
+    color: rgba(214, 151, 14, 0.7);
     display: block; }
   .nos-container .dreams-item {
     font-size: 1.5rem;
@@ -186,7 +187,7 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
 /* SECTION SERVICIOS*/
 .container-servicio {
   width: 90%;
-  background-color: #d6970e;
+  background-color: rgba(214, 151, 14, 0.7);
   margin: 20px auto;
   display: flex;
   padding: 15px;
@@ -249,10 +250,8 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
     justify-content: center;
     flex-direction: column; }
 
-  .banner-envios {
-    width: 100%; }
-    .banner-envios .contenedor-banner {
-      width: 100%; } }
+  .contenedor-banner img {
+    width: 100% !important; } }
 @media screen and (max-width: 480px) {
   .nos-container {
     display: flex;
@@ -273,8 +272,8 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
         .photo-grid-container .photo-grid .photo-grid-item .item-title {
           display: none; }
 
-  .banner-envios {
-    display: none; }
+  .contenedor-banner img {
+    width: 100% !important; }
 
   .fixed-help, .fixed-wapp {
     display: none; }
@@ -283,7 +282,7 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
     display: none; } }
 /* Mapas */
 .border {
-  border: 2px solid #d6970e; }
+  border: 2px solid rgba(214, 151, 14, 0.7); }
 
 .w-border {
   border: 2px solid #dddddd; }
@@ -297,7 +296,7 @@ div .contenedor-tees,
 div .contenedor-hoddies,
 div .contenedor-boardshorts,
 div .contenedor-accesorios,
-div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .form-contacto input, .form-contacto input[type="text"],
+div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .container-form-contacto .form-contacto input, .form-contacto input[type="text"],
 .form-contacto input[type="email"],
 .form-contacto textarea, .mapa, section iframe, footer .contenedor, .contenedor-horas, footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes, .contenedor-horas ul, .contenedor-horas ul .lun-vier, .contenedor-horas ul .sab, .contenedor-horas ul .dom, .copyright {
   display: flex;
@@ -392,7 +391,7 @@ div .contenedor-shorts {
   color: #d6970e;
   width: 150px;
   height: 30px;
-  border: 2px solid #d6970e;
+  border: 2px solid rgba(214, 151, 14, 0.7);
   border-radius: 5px; }
 
 .btn-comprar,
@@ -494,7 +493,7 @@ div .contenedor-shorts {
     .container-blog .grid-blog .blog-article-seis {
       position: relative;
       width: 100%;
-      border: 2px solid #d6970e;
+      border: 2px solid rgba(214, 151, 14, 0.7);
       padding: 20px;
       border-radius: 5px; }
       .container-blog .grid-blog .blog-article-uno .blog-item-title,
@@ -504,7 +503,7 @@ div .contenedor-shorts {
       .container-blog .grid-blog .blog-article-cinco .blog-item-title,
       .container-blog .grid-blog .blog-article-seis .blog-item-title {
         font-size: 1.10em;
-        color: #d6970e;
+        color: rgba(214, 151, 14, 0.7);
         letter-spacing: 1px; }
       .container-blog .grid-blog .blog-article-uno .blog-item-text,
       .container-blog .grid-blog .blog-article-dos .blog-item-text,
@@ -612,7 +611,7 @@ div .contenedor-shorts {
     flex-wrap: wrap;
     margin: 20px 10px;
     padding: 20px;
-    border: 2px solid #d6970e; }
+    border: 2px solid rgba(214, 151, 14, 0.7); }
     .container-faq .faq-item-container .title-questions {
       color: #d6970e; }
     .container-faq .faq-item-container .faq-item-article {
@@ -621,13 +620,16 @@ div .contenedor-shorts {
       flex-wrap: wrap;
       margin: 0 10px; }
       .container-faq .faq-item-container .faq-item-article .faq-title-article {
-        color: #d6970e;
+        color: rgba(214, 151, 14, 0.7);
         text-decoration: underline 2px;
         text-transform: uppercase; }
 
-.main-contacto {
-  margin: 20px auto 20px auto; }
-
+@media screen and (min-width: 481px) and (max-width: 960px) {
+  .faq-item-article img {
+    display: none; } }
+@media screen and (max-width: 480px) {
+  .faq-item-article img {
+    display: none; } }
 .container-form-contacto {
   width: 90%;
   margin: auto;
@@ -638,16 +640,15 @@ div .contenedor-shorts {
     color: #d6970e;
     text-align: left;
     margin: 10px auto; }
-
-.form-contacto {
-  background-color: #dddddd;
-  width: 100%;
-  margin: 20px auto;
-  padding: 20px 20px;
-  border: 2px solid #d6970e;
-  border-radius: 10px;
-  color: black;
-  font-weight: bold; }
+  .container-form-contacto .form-contacto {
+    background-color: #dddddd;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px 20px;
+    border: 2px solid rgba(214, 151, 14, 0.7);
+    border-radius: 10px;
+    color: black;
+    font-weight: bold; }
 
 .form-contacto input[type="text"],
 .form-contacto input[type="email"],
@@ -656,7 +657,7 @@ div .contenedor-shorts {
   padding: 20px;
   margin: 20px auto;
   border-radius: 3px;
-  border: 2px solid #d6970e; }
+  border: 2px solid rgba(214, 151, 14, 0.7); }
 
 .form-contacto textarea {
   min-height: 80px;
@@ -675,7 +676,7 @@ label {
   .client-civil select {
     background-color: #dddddd;
     border-radius: 5px;
-    border: 2px solid #d6970e; }
+    border: 2px solid rgba(214, 151, 14, 0.7); }
 
 .check-newsletter input[type="checkbox"] {
   width: 20px;
@@ -707,6 +708,27 @@ label {
 section iframe {
   margin: 10px;
   width: 90%; }
+
+.btn-call {
+  position: absolute !important;
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  left: 47%;
+  top: 50%; }
+  .btn-call a {
+    color: #dddddd;
+    text-decoration: none;
+    letter-spacing: 2px; }
+  .btn-call:hover {
+    background-color: #dddddd; }
+    .btn-call:hover a {
+      color: black; }
 
 @media screen and (max-width: 480px) {
   .mapa {
@@ -816,7 +838,7 @@ body {
 
 /* Mapas */
 .border {
-  border: 2px solid #d6970e; }
+  border: 2px solid rgba(214, 151, 14, 0.7); }
 
 .w-border {
   border: 2px solid #dddddd; }
@@ -830,7 +852,7 @@ div .contenedor-tees,
 div .contenedor-hoddies,
 div .contenedor-boardshorts,
 div .contenedor-accesorios,
-div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .form-contacto input, .form-contacto input[type="text"],
+div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .container-form-contacto .title-section-contacto, .container-form-contacto .form-contacto input, .form-contacto input[type="text"],
 .form-contacto input[type="email"],
 .form-contacto textarea, .mapa, section iframe, footer .contenedor, .contenedor-horas, footer .titulo-horarios, footer .titulo-ubi, footer .titulo-redes, .contenedor-horas ul, .contenedor-horas ul .lun-vier, .contenedor-horas ul .sab, .contenedor-horas ul .dom, .copyright {
   display: flex;

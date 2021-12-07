@@ -40,7 +40,21 @@
 		}
 }
 
+@media screen and (min-width: 481px) and (max-width: 960px){
+	.faq-item-article {
+		img {
+			display: none;
+		}
+	}
+}
 
+@media screen and (max-width: 480px){
+	.faq-item-article {
+		img {
+			display: none;
+		}
+	}
+}
 
 
 
