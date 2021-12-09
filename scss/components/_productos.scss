@@ -23,6 +23,10 @@ div {
 	    @extend %c-flex;
 	    flex-direction: column;
 	    align-items: center;
+		img {
+			width: 100%;
+			height: auto;
+		}
 			.price-producto {
 				font-weight: 400;
 					.old-price {
@@ -81,6 +85,12 @@ div {
 }
 
 .container-selects  {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 10px;
+	margin-bottom: 10px;
     select {
         background-color: map-get($standard, color-oscuro);
         color: map-get($standard, color-principal);
@@ -88,6 +98,7 @@ div {
         height: 30px;
         border: map-get($standard, border-standard);
         border-radius: map-get($standard, border-radius-standard);
+		margin: 0 auto;
     }
 }
 

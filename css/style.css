@@ -100,6 +100,7 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
         padding: 2px; }
     .photo-grid-container .photo-grid img {
       width: 100%;
+      height: auto;
       opacity: .7;
       transition: all; }
       .photo-grid-container .photo-grid img:hover {
@@ -176,6 +177,7 @@ div .contenedor-shorts, .btn-productos-container, .container-form-contacto, .con
   overflow: cover; }
   .banner-envios .contenedor-banner img {
     width: 1200px;
+    height: auto;
     transition: all; }
     .banner-envios .contenedor-banner img:hover {
       transition: all 1s;
@@ -326,6 +328,14 @@ div .contenedor-shorts {
   margin: 20px auto;
   flex-direction: column;
   align-items: center; }
+  div .contenedor-zapatillas img,
+  div .contenedor-tees img,
+  div .contenedor-hoddies img,
+  div .contenedor-boardshorts img,
+  div .contenedor-accesorios img,
+  div .contenedor-shorts img {
+    width: 100%;
+    height: auto; }
   div .contenedor-zapatillas .price-producto,
   div .contenedor-tees .price-producto,
   div .contenedor-hoddies .price-producto,
@@ -386,13 +396,21 @@ div .contenedor-shorts {
   font-size: 1.5em;
   margin: 10px auto; }
 
-.container-selects select {
-  background-color: black;
-  color: #d6970e;
-  width: 150px;
-  height: 30px;
-  border: 2px solid #d6970e;
-  border-radius: 5px; }
+.container-selects {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+  margin-bottom: 10px; }
+  .container-selects select {
+    background-color: black;
+    color: #d6970e;
+    width: 150px;
+    height: 30px;
+    border: 2px solid #d6970e;
+    border-radius: 5px;
+    margin: 0 auto; }
 
 .btn-comprar,
 .btn-ver {
