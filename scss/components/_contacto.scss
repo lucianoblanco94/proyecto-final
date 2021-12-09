@@ -85,15 +85,13 @@ label{
 	font-size: 16px;
 	display: flex;
 	justify-content: end;
-	align-items: center;
-    .form-contacto input[type="submit"],
-    .form-contacto input[type="reset"] {
-        &:hover{
+	align-items: center;   
+    &:hover{
         background-color: map-get($standard, color-principal);
 	    color: map-get($standard, color-claro);
 	    font-weight: bold;
         }
-    }
+    
 }
 
 .mapa {
